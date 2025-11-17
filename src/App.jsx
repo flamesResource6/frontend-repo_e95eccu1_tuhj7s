@@ -1,9 +1,11 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import WhyUs from './components/WhyUs'
 import Services from './components/Services'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
-import WhyUs from './components/WhyUs'
+import Testimonials from './components/Testimonials'
+import Booking from './components/Booking'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <WhyUs />
         <Services />
         <Pricing />
+        <Testimonials />
+        <Booking />
         <CTA />
       </main>
       <footer className="bg-blue-950 text-blue-100 py-10">
