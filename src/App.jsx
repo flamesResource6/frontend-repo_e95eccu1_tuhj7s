@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
+import WhyUs from './components/WhyUs'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <WhyUs />
         <Services />
         <Pricing />
         <CTA />
